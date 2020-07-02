@@ -1,0 +1,135 @@
+<!-- Start of script !-->
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<meta>
+	<meta charset="UTF-16">
+</meta>
+<title>SNU Debug page</title>
+<body bgcolor="white">
+</head>
+<?
+// No PHP for the page available
+echo("String");
+print("Hello World");
+// End of PHP section
+?>
+<ruby>
+
+</ruby>
+<style>
+/* Stylesheet start */
+a {
+	color: blue;
+	font-family: "Courier";
+}
+p {
+	color: black;
+	font-family: "Tahoma";
+}
+H1 {
+	color: black;
+	font-family: "Liberation Serif";
+}
+H2 {
+	color: black;
+	font-family: "Liberation Serif";
+}
+H3 {
+	color: black;
+	font-family: "Liberation Serif";
+}
+H4 {
+	color: black;
+	font-family: "Liberation Serif";
+}
+H5 {
+	color: black;
+	font-family: "Liberation Serif";
+}
+H6 {
+	color: black;
+	font-family: "Liberation Serif";
+}
+HR {
+	color: black;
+}
+/* Stylesheet end */
+</style>
+<!-- Divider !-->
+<HR>
+<header>
+<H1>SNU Debug mode</H1>
+</header>
+<HR>
+<header>
+<H1>Display</H1>
+</header>
+<HR>
+<section>
+<H1>Current screen resolution (JS DOM)</H1>
+<p id="widthScreen"></p>
+<p id="heightScreen"></p>
+<p>SNU is currently being tested on a screen with 1366x768 resolution (Your device may be different)</p>
+<HR>
+<H1>Available resolution (JS DOM)</H1>
+<p id="availableWidthScreen"></p>
+<p id="availableHeightScreen"></p>
+</section>
+<!-- JavaScript MUST stay below from where it is referenced !-->
+<script>
+// JavaScript DOM for finding available screen height (in pixels)
+document.getElementById("availableHeightScreen").innerHTML =
+"Available screen height is " + screen.availHeight;
+</script>
+<!-- Divider !-->
+<script>
+// JavaScript DOM for finding available screen width (in pixels)
+document.getElementById("availableWidthScreen").innerHTML =
+"Available screen width is " + screen.availWidth;
+</script>
+<!-- Divider !-->
+<script>
+// JavaScript DOM for finding screen width
+document.getElementById("widthScreen").innerHTML =
+"Screen width is " + screen.width;
+</script>
+<!-- Divider !-->
+<script>
+// JavaScript DOM for finding screen width
+document.getElementById("heightScreen").innerHTML =
+"Screen height is " + screen.height;
+</script>
+<HR>
+<section>
+<details><summary><H1 id="SnapshotSection">View older versions of the SNU Debug mode page</H1></summary>
+<H2>Snapshots 1 to 10</H2>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot1.html">Snapshot 1 (December 28th 2019)</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot2.html">Snapshot 2</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot3.html">Snapshot 3</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot4.html">Snapshot 4</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot5.html">Snapshot 5</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot6.html">Snapshot 6</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot7.html">Snapshot 7</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot8.html">Snapshot 8</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot9.html">Snapshot 9</a></H4></button></H3>
+<H3><button><H4><a href="DebugSNU_Main_Snapshot10.html">Snapshot 10</a></H4></button></H3>
+</details>
+</section>
+<HR>
+<header>
+<H1>You have reached the bottom of this page!</H1>
+</header>
+<footer>
+<p>Footer is not yet properly setup</p>
+</footer>
+<HR>
+</body>
+</html>
+<!-- End of script !-->
+<!-- Whitespace 5x (keep blank) !-->
+ 
+  
+   
+	
